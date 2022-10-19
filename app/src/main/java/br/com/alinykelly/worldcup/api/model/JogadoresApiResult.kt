@@ -19,7 +19,7 @@ data class JogadorResult(
 data class JogadorApiResult(
     val id: Int,
     val name: String,
-    val types: JogadorTypeSlot
+    val types: List<JogadorTypeSlot>
 )
 
 data class JogadorTypeSlot(

@@ -2,11 +2,12 @@ package br.com.alinykelly.worldcup.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewmodel.CreationExtras
 
 @Suppress("UNCHECKED_CAST")
 class JogadorViewModelFactory : ViewModelProvider.Factory {
-    
-    override fun  <T: ViewModel?> create(modelClass: Class<T>): T {
+
+    override fun <T : ViewModel> create(modelClass: Class<T>, extras: CreationExtras): T {
         return JogadorViewModel() as T
     }
 }

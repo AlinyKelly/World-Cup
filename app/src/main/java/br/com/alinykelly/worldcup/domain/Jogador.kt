@@ -7,6 +7,6 @@ data class Jogador (
     ) {
     val formattedName = name.capitalize()
     val formattedNumber = number.toString().padStart(3, '0')
-    val imageUrl = "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/$formattedNumber.png"
+    val imageUrl = "passar a url da imagem aqui"
 }
 

@@ -2,7 +2,6 @@ package br.com.alinykelly.worldcup.api
 
 
 import br.com.alinykelly.worldcup.api.model.JogadorApiResult
-import br.com.alinykelly.worldcup.api.model.JogadorService
 import br.com.alinykelly.worldcup.api.model.JogadoresApiResult
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -13,11 +12,11 @@ object JogadorRepository {
     //https://pokeapi.co/api/v2/pokemon/?limit=151
     init {
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://pokeapi.co/api/v2/")
+            .baseUrl("passar a url base aqui é a url inicial")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
-    service = retrofit.create(JogadorService::class.java)
+        service = retrofit.create(JogadorService::class.java)
     }
 
     fun listJogadores(limit: Int = 151): JogadoresApiResult? {

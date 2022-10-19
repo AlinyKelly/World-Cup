@@ -24,10 +24,10 @@
         <ImageView
             android:id="@+id/ivJogador"
             android:layout_width="215dp"
-            android:layout_height="215dp"
+            android:layout_height="287dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
-            android:background="@drawable/charmander"
+            android:background="@drawable/neymar"
             android:contentDescription="Jogador Image"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -42,7 +42,7 @@
             android:textSize="14sp"
             app:layout_constraintStart_toStartOf="@+id/ivJogador"
             app:layout_constraintTop_toBottomOf="@+id/ivJogador"
-            tools:text="Nº 004" />
+            tools:text="Camisa Nº 10" />
 
         <TextView
             android:id="@+id/tvName"
@@ -73,7 +73,7 @@
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textSize="11sp"
-                tools:text="Fire" />
+                tools:text="Posicao" />
 
             <TextView
                 android:id="@+id/tvType2"
@@ -85,7 +85,7 @@
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textSize="11sp"
-                tools:text="Fire" />
+                tools:text="Idade" />
 
         </LinearLayout>
 
