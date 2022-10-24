@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">World Cup</string>
+    <string name="error_message">Algo deu errado :(</string>
+    <string name="error_http_401">Não autorizado :(</string>
+    <string name="image_jogador_content">Image jogador</string>
+    <string name="image_jogador_min">%1$d min</string>
 </resources>
